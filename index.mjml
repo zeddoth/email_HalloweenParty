@@ -1,0 +1,101 @@
+<mjml>
+  <mj-head>
+    <mj-title>Halloween Party</mj-title>
+    <mj-preview>Trick or Treat</mj-preview>
+    <mj-font name="FontAwesome" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    </mj-font>
+    <mj-style>
+      @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css";
+
+      @font-face {
+        font-family: "halloween-d";
+        src: url("/assets/halloween-d.woff2") format("woff2"),
+          url("/assets/halloween-d.ttf") format("truetype");
+      }
+
+      body {
+        padding-top: 30px;
+        padding-bottom: 30px;
+      }
+
+      .message-box {
+        width: 470px;
+        background-color: #1b232c;
+        border-width: 2px;
+        border-style: solid;
+        border-image: linear-gradient(to bottom,
+          rgba(255, 255, 255, 0),
+          rgba(255, 255, 255, 0.3),
+          #6d2810) 1;
+      }
+
+      .message-box_h1 {
+        font-size: 50px;
+        margin: 0;
+      }
+
+      .oblique {
+        font-style: oblique;
+      }
+
+      .footer-link {
+        text-decoration: none;
+        color: white;
+      }
+
+      .footer-icon {
+        margin-left: 3px;
+        margin-right: 3px;
+      }
+
+      .pumpkin {
+        padding-top: 10px;
+        height: 40px;
+        width: auto;
+        padding-right: 10px;
+        margin: 0;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#303e59">
+    <mj-section padding="0" background-color="#0b1016">
+      <mj-column>
+        <mj-image padding="0" src="https://i.ibb.co/0VKGqCD/halloween.png" alt="pumpkins">
+      </mj-column>
+    </mj-section>
+    <mj-section padding-top="50px" padding-left="50px" padding-right="50px" background-color="#0b1016">
+      <mj-column css-class="message-box">
+        <mj-text padding-left="30px" padding-right="30px" color="white" align="center" font-size="18px" font-family="halloween-d">
+          <h1 class="message-box_h1 oblique"><img class="pumpkin" src="https://i.ibb.co/zJ27yfw/pumpkin.png" alt="pumpkin">Halloween Party</h1>
+          <p class="oblique">Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesettia
+            essentially unchanged. It was popularised in the 1960s with the
+            release of Letraset sheets containing Lorem Ipsum passages, and
+            more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#0b1016">
+      <mj-column>
+        <mj-image padding-left="25px" padding-right="25px" padding-top="0" padding-bottom="50px" src="https://i.ibb.co/4P3My8x/button.png" alt="get a ticket" href="https://fr.wikipedia.org/wiki/Halloween">
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#171c22">
+      <mj-column>
+        <mj-text align="center" font-size="12px" text-decoration="underline" padding="0">
+          <a class="footer-link oblique" href="" alt="unsubscribe">Unsubscribe to the newsletter</a>
+        </mj-text>
+        <mj-text align="center">
+          <a class="footer-link oblique" href="https://github.com/zeddoth">Zeddoth Companie</a>
+        </mj-text>
+        <mj-text padding="0" align="center" color="white">
+          Contact us at <i class="footer-icon fas fa-phone-square-alt"></i> <a class="footer-link" href="tel:+33699722073">+33 6 99 72 20 73</a> or <i class="footer-icon fas fa-envelope-square"></i><a class="footer-link" href="mailto:zeddoth@halloweenparty.com">zeddoth@halloweenparty.com
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

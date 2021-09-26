@@ -1,0 +1,23 @@
+{
+  "name": "Halloween-Party_CSS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeddoth/email_HalloweenParty.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zeddoth/email_HalloweenParty/issues"
+  },
+  "homepage": "https://github.com/zeddoth/email_HalloweenParty#readme",
+  "dependencies": {
+    "mjml": "^4.10.3"
+  }
+}
